@@ -1,0 +1,217 @@
+header {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    height: 3em;
+    line-height: 3em;
+    color: black;
+}
+header img{
+  width: 3.75em;
+  height: 3.75em;
+  display: inline-block;
+}
+header h2{
+  display: inline-block;
+}
+.top-right{
+  display: inline-block ;
+  float: right;
+  align-self: right;
+  align-content: right;
+}
+ul{
+  list-style: none;
+}
+
+#menu li>a{
+  background-color: grey;
+  color: white;
+  padding: 0.625em;
+  display: block;
+  text-decoration: none;
+  min-width: 6.25em;
+}
+
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+
+}
+#menu>li{
+  float: left;
+  text-align:center
+
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+.header-class{
+  background-image: url("../images/headerpicreal.jpg");
+  background-size: cover;
+	background-attachment: fixed;
+  padding: 3.125em;
+  margin:0em;
+  position: relative;
+}
+
+.foto-contenedor{
+  height: 12.5em;
+  width: auto;
+  position: relative;
+  padding: 1.875em;
+}
+
+.foto-contenedor img{
+  width: 12.5em;
+  height: 12.5em;
+  border-radius: 31.25em;
+  position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+}
+.header-class h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 300%;
+  margin: 0.3125em;
+  text-align: center;
+  margin-top: 0.3125em;
+  color: black;
+}
+.header-class h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgba(232, 234, 246, 0.5);
+  background-size: cover;
+  color: grey;
+  margin: 1.25em;
+  text-align: center;
+  margin-bottom: 3.125em;
+}
+.header-class h4{
+  align-self: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5625em;
+  margin: auto;
+  padding: 0.625em;
+  text-align: center;
+  color: black;
+}
+.header-class p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.125em;
+  margin: auto;
+  margin-bottom: 2em;
+  padding: auto;
+  text-align: center;
+  line-height: 1.25em;
+  color: white;
+}
+.social-icons {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.social-icons a{
+  color: black
+}
+.social-icons ul li {
+	display: inline-block;
+	padding: 0 0.625em;
+	color: #fff;
+  text-align: center;
+}
+.contenido-gral{
+  background-image: url("../images/greybackground.jpg");
+  background-size:auto;
+  background-position:center ;
+  height: auto;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.contenido-gral h4{
+  align-self: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
+  margin: auto;
+  padding: 0.625em;
+  text-align: center;
+  color: #443F8A;
+}
+.contenido-gral p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  line-height: 1.25em;
+}
+.contenido-gral p b{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  line-height: 1.875em;
+  color: black;
+}
+.proy p {
+  text-align: center;
+  width: auto;
+}
+.requo-logo{
+  float: left;
+  height: 100% auto;
+  width: 50%;
+  padding: 2.5em 0px 2.5em 5em ;
+}
+
+.logo-pic{
+  height: 9.375em;
+  width: 9.375em;
+  border-radius: 3.125em;
+}
+.lista-redes{
+  align-items: center;
+  padding: 2.5em;
+  float: right;
+  height: 100% auto;
+  width: 50%;
+}
+.lista-redes li{
+  margin-bottom: 0.625em;
+  color: grey;
+}
+
+.lista-redes a:hover {
+  background-color: #c0c3c6;
+  opacity: 0.4;
+  width: inherit;
+  height: auto;
+}
+.portfolio{
+  background-color: white;
+  background-color: #E8EAF6;
+  margin-bottom: 3em;
+}
+.portfolio img{
+  width: 11.25em;
+  height: 11.25em;
+  display:block;
+  margin:auto;
+}
+.portfolio h3{
+  text-align: center;
+}
+
+.portfolio p{
+  font-size:1.0em;
+  text-align: center;
+}
